@@ -28,6 +28,6 @@ namespace AutoShopCrud.Models
 
         [Column("Preço")]
         [Display(Name = "Preço")]
-        public int Preco { get; set; }
+        public decimal Preco { get; set; }
     }
 }
